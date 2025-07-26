@@ -1,0 +1,34 @@
+name: dynamic_flutter_form_example
+description: A comprehensive example app demonstrating all features of the Dynamic Flutter Form package.
+version: 1.0.0+1
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The dynamic flutter form package
+  dynamic_flutter_form:
+    path: ../
+    # When published to pub.dev, use:
+    # dynamic_flutter_form: ^1.0.0
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Code generation and linting
+  flutter_lints: ^3.0.0
+  json_serializable: ^6.7.1
+  build_runner: ^2.4.7
+
+flutter:
+  uses-material-design: true
+

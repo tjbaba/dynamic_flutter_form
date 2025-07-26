@@ -1,0 +1,20 @@
+name: dynamic_flutter_form
+description: A beautiful and customizable dynamic form package for Flutter with flashing animations and multiple field types.
+version: 1.0.0
+homepage: https://github.com/tjbaba/dynamic_flutter_form
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^2.4.9
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
