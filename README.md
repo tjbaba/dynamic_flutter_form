@@ -4,10 +4,6 @@
 
 A beautiful, highly customizable dynamic form package for Flutter with flashing animations, comprehensive validation, multiple field types, and your favorite original UI design intact.
 
-[![Pub Version](https://img.shields.io/pub/v/dynamic_flutter_form.svg)](https://pub.dev/packages/dynamic_flutter_form)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=flat&logo=Flutter&logoColor=white)](https://flutter.dev)
-
 ## 🎬 Preview
 
 ![Dynamic Form Demo](https://github.com/user-attachments/assets/00c85007-af3e-4b01-9afd-49ee29c0cdb4)
