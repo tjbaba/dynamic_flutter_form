@@ -6,7 +6,7 @@ A beautiful, highly customizable dynamic form package for Flutter with flashing 
 
 ## 🎬 Preview
 
-![Dynamic Form Demo](https://github.com/user-attachments/assets/00c85007-af3e-4b01-9afd-49ee29c0cdb4)
+![Dynamic Form Demo](https://raw.githubusercontent.com/tjbaba/dynamic_flutter_form/refs/heads/main/video/video.gif)
 
 ## ✨ Features
 
