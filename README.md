@@ -702,7 +702,7 @@ We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) f
 ### Development Setup
 
 ```bash
-git clone https://github.com/yourusername/dynamic_flutter_form.git
+git clone https://github.com/tjbaba/dynamic_flutter_form.git
 cd dynamic_flutter_form
 flutter pub get
 cd example
@@ -733,11 +733,11 @@ Check out our [example app](example/) for complete implementation examples inclu
 
 - 📦 [Pub.dev Package](https://pub.dev/packages/dynamic_flutter_form)
 - 📖 [API Documentation](https://pub.dev/documentation/dynamic_flutter_form/latest/)
-- 🐛 [Issue Tracker](https://github.com/yourusername/dynamic_flutter_form/issues)
-- 💬 [Discussions](https://github.com/yourusername/dynamic_flutter_form/discussions)
+- 🐛 [Issue Tracker](https://github.com/tjbaba/dynamic_flutter_form/issues)
+- 💬 [Discussions](https://github.com/tjbaba/dynamic_flutter_form/discussions)
 
 ---
 
-**Made with ❤️ by [Your Name](https://github.com/yourusername)**
+**Made with ❤️ by [Your Name](https://github.com/tjbaba)**
 
 *If this package helped you, please give it a ⭐ on GitHub!*
