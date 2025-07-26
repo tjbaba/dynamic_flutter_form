@@ -107,7 +107,7 @@ class _DynamicSliderFieldState extends State<DynamicSliderField> {
           decoration: BoxDecoration(
             border: Border.all(color: currentTheme.primaryColor),
             borderRadius: BorderRadius.circular(currentTheme.borderRadius),
-            color: currentTheme.primaryColor.withOpacity(0.1),
+            color: currentTheme.primaryColor.withValues(alpha: 0.1),
           ),
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -138,9 +138,9 @@ class _DynamicSliderFieldState extends State<DynamicSliderField> {
         SliderTheme(
           data: SliderTheme.of(context).copyWith(
             activeTrackColor: currentTheme.primaryColor,
-            inactiveTrackColor: currentTheme.primaryColor.withOpacity(0.3),
+            inactiveTrackColor: currentTheme.primaryColor.withValues(alpha: 0.3),
             thumbColor: currentTheme.primaryColorDark,
-            overlayColor: currentTheme.primaryColor.withOpacity(0.2),
+            overlayColor: currentTheme.primaryColor.withValues(alpha: 0.2),
             valueIndicatorColor: currentTheme.primaryColorDark,
             valueIndicatorTextStyle: const TextStyle(
               color: Colors.white,

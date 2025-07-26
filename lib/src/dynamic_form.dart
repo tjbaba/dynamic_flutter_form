@@ -86,7 +86,7 @@ class _DynamicFormState extends ConsumerState<DynamicForm> {
 
   FormResult _findResult(String elementId) {
     return formResult.firstWhere(
-      (result) => result.elementId == elementId,
+          (result) => result.elementId == elementId,
       orElse: () => FormResult(
         elementId: elementId,
         submission: "",
@@ -139,7 +139,7 @@ class _DynamicFormState extends ConsumerState<DynamicForm> {
         : newResult.copyWith(isValid: true, errorMessage: null);
 
     final existingIndex = formResult.indexWhere(
-      (result) => result.elementId == updatedResult.elementId,
+          (result) => result.elementId == updatedResult.elementId,
     );
 
     if (existingIndex != -1) {
@@ -332,11 +332,6 @@ class _DynamicFormState extends ConsumerState<DynamicForm> {
             ));
           },
         );
-
-      default:
-        return Container(
-          child: Text('Unsupported question type: ${question.questionType}'),
-        );
     }
   }
 
@@ -430,25 +425,25 @@ class _DynamicFormState extends ConsumerState<DynamicForm> {
                           index == 0
                               ? const SizedBox()
                               : InkWell(
-                                  onTap: onBackTapped,
-                                  child: Container(
-                                    decoration: BoxDecoration(
-                                      borderRadius: BorderRadius.circular(
-                                          currentTheme.borderRadius),
-                                      color: currentTheme.primaryColorDark,
-                                    ),
-                                    padding: const EdgeInsets.symmetric(
-                                        horizontal: 10, vertical: 5),
-                                    child: Text(
-                                      'Back',
-                                      style: TextStyle(
-                                        color: currentTheme.backgroundColor,
-                                        fontSize: 18,
-                                        fontWeight: FontWeight.bold,
-                                      ),
-                                    ),
-                                  ),
+                            onTap: onBackTapped,
+                            child: Container(
+                              decoration: BoxDecoration(
+                                borderRadius: BorderRadius.circular(
+                                    currentTheme.borderRadius),
+                                color: currentTheme.primaryColorDark,
+                              ),
+                              padding: const EdgeInsets.symmetric(
+                                  horizontal: 10, vertical: 5),
+                              child: Text(
+                                'Back',
+                                style: TextStyle(
+                                  color: currentTheme.backgroundColor,
+                                  fontSize: 18,
+                                  fontWeight: FontWeight.bold,
                                 ),
+                              ),
+                            ),
+                          ),
                           SizedBox(width: index == 0 ? 0 : 10),
                           InkWell(
                             onTap: () {
